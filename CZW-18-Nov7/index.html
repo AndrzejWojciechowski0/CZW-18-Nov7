@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Conv</title>
+	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+
+<body>
+	<div class="container" id="app">
+
+		
+			<div class="module" id="silnia-module">
+					<h3>silnia:</h3>
+					
+			<div class="spread">
+				<label for="n">n:</label>
+				<input type="number" class="form-control" id="n" placeholder="n">
+			</div>
+			<button type="button" id="sil-generate" class="btn btn-primary">calculate</button>
+			</div>
+			<code id="silnia-solution">0</code>
+
+
+
+
+
+		<div class="module" id="random-module">
+			<h3>random:</h3>
+
+			<div class="spread">
+				<label for="random-min">min:</label>
+				<input type="number" class="form-control" id="random-min" placeholder="min">
+			</div>
+			<div class="spread">
+				<label for="random-max">max:</label>
+				<input type="number" class="form-control" id="random-max" placeholder="max">
+			</div>
+			<div class="spread">
+				<button type="button" id="random-generate" class="btn btn-primary">generate</button>
+				<code id="random-solution">0</code>
+			</div>
+		</div>
+	</div>
+	<script src="scripts.js"></script>
+</body>
+
+</html>
